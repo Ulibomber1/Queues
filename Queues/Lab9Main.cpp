@@ -1,5 +1,6 @@
 #include <iostream>
 #include "Vector.h"
+#include "List.h"
 #include "Queue.h"
 using namespace std;
 
@@ -52,8 +53,6 @@ int main()
         Vector<int>* sub = tree[next];
         if (sub != nullptr)
             for (int i = 0; i < sub->size(); i++)
-                myq.enqueue((&sub[i]));
+                myq.enqueue(&sub[i]);
     }
-
-
 }

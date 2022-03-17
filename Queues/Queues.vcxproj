@@ -142,6 +142,7 @@
     <ClCompile Include="Lab9Main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="List.h" />
     <ClInclude Include="Queue.h" />
     <ClInclude Include="Vector.h" />
   </ItemGroup>
